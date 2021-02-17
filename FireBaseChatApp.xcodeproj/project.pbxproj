@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		518F88763B315CFB92676570 /* Pods_FireBaseChatAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF28E6B72A42CE87498C12C /* Pods_FireBaseChatAppTests.framework */; };
+		6E94336F25DCE14800F50F80 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E94336E25DCE14800F50F80 /* GoogleService-Info.plist */; };
 		6E9C7B5425DC1F7800D4CB23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9C7B5325DC1F7800D4CB23 /* AppDelegate.swift */; };
 		6E9C7B5625DC1F7800D4CB23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9C7B5525DC1F7800D4CB23 /* SceneDelegate.swift */; };
 		6E9C7B5825DC1F7800D4CB23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9C7B5725DC1F7800D4CB23 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E94336E25DCE14800F50F80 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6E9C7B5025DC1F7800D4CB23 /* FireBaseChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireBaseChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9C7B5325DC1F7800D4CB23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E9C7B5525DC1F7800D4CB23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,7 +103,6 @@
 				F49925FC4ACF8803D5A1FF4B /* Pods-FireBaseChatAppTests.debug.xcconfig */,
 				8061D1397E4C845281AB6A5C /* Pods-FireBaseChatAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -147,6 +148,7 @@
 				6E9C7B5C25DC1F7900D4CB23 /* Assets.xcassets */,
 				6E9C7B5E25DC1F7900D4CB23 /* LaunchScreen.storyboard */,
 				6E9C7B6125DC1F7900D4CB23 /* Info.plist */,
+				6E94336E25DCE14800F50F80 /* GoogleService-Info.plist */,
 			);
 			path = FireBaseChatApp;
 			sourceTree = "<group>";
@@ -278,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E9C7B6025DC1F7900D4CB23 /* LaunchScreen.storyboard in Resources */,
+				6E94336F25DCE14800F50F80 /* GoogleService-Info.plist in Resources */,
 				6E9C7B5D25DC1F7900D4CB23 /* Assets.xcassets in Resources */,
 				6E9C7B5B25DC1F7800D4CB23 /* Main.storyboard in Resources */,
 			);
