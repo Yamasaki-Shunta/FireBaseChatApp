@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		518F88763B315CFB92676570 /* Pods_FireBaseChatAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF28E6B72A42CE87498C12C /* Pods_FireBaseChatAppTests.framework */; };
 		6E94336F25DCE14800F50F80 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E94336E25DCE14800F50F80 /* GoogleService-Info.plist */; };
+		6E94338D25DCE64E00F50F80 /* CheckPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E94338C25DCE64E00F50F80 /* CheckPermission.swift */; };
+		6E94339525DCE7C900F50F80 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E94339425DCE7C900F50F80 /* RegisterViewController.swift */; };
+		6E94339A25DCEAF000F50F80 /* SendToDBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E94339925DCEAF000F50F80 /* SendToDBModel.swift */; };
+		6E94339F25DCF54F00F50F80 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E94339E25DCF54F00F50F80 /* TabBarController.swift */; };
+		6E9433A425DCF9C900F50F80 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9433A325DCF9C900F50F80 /* ChatViewController.swift */; };
+		6E9433A925DCFE1200F50F80 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9433A825DCFE1200F50F80 /* Message.swift */; };
+		6E9433AF25DD0D4500F50F80 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9433AD25DD0D4500F50F80 /* MessageCell.swift */; };
+		6E9433B025DD0D4500F50F80 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E9433AE25DD0D4500F50F80 /* MessageCell.xib */; };
+		6E9433B525DD584900F50F80 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9433B425DD584900F50F80 /* RoomViewController.swift */; };
+		6E9433BA25DD5AB300F50F80 /* RoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9433B925DD5AB300F50F80 /* RoomModel.swift */; };
 		6E9C7B5425DC1F7800D4CB23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9C7B5325DC1F7800D4CB23 /* AppDelegate.swift */; };
 		6E9C7B5625DC1F7800D4CB23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9C7B5525DC1F7800D4CB23 /* SceneDelegate.swift */; };
 		6E9C7B5825DC1F7800D4CB23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9C7B5725DC1F7800D4CB23 /* ViewController.swift */; };
@@ -40,6 +50,16 @@
 
 /* Begin PBXFileReference section */
 		6E94336E25DCE14800F50F80 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E94338C25DCE64E00F50F80 /* CheckPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPermission.swift; sourceTree = "<group>"; };
+		6E94339425DCE7C900F50F80 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		6E94339925DCEAF000F50F80 /* SendToDBModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendToDBModel.swift; sourceTree = "<group>"; };
+		6E94339E25DCF54F00F50F80 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		6E9433A325DCF9C900F50F80 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		6E9433A825DCFE1200F50F80 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		6E9433AD25DD0D4500F50F80 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		6E9433AE25DD0D4500F50F80 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		6E9433B425DD584900F50F80 /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		6E9433B925DD5AB300F50F80 /* RoomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomModel.swift; sourceTree = "<group>"; };
 		6E9C7B5025DC1F7800D4CB23 /* FireBaseChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireBaseChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9C7B5325DC1F7800D4CB23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E9C7B5525DC1F7800D4CB23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +136,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6E94337325DCE3A800F50F80 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E94338C25DCE64E00F50F80 /* CheckPermission.swift */,
+				6E94339925DCEAF000F50F80 /* SendToDBModel.swift */,
+				6E9433A825DCFE1200F50F80 /* Message.swift */,
+				6E9433B925DD5AB300F50F80 /* RoomModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E94337425DCE3BF00F50F80 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6E9C7B5725DC1F7800D4CB23 /* ViewController.swift */,
+				6E94339425DCE7C900F50F80 /* RegisterViewController.swift */,
+				6E94339E25DCF54F00F50F80 /* TabBarController.swift */,
+				6E9433A325DCF9C900F50F80 /* ChatViewController.swift */,
+				6E9433B425DD584900F50F80 /* RoomViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6E94337525DCE3DF00F50F80 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E9C7B5925DC1F7800D4CB23 /* Main.storyboard */,
+				6E9C7B5C25DC1F7900D4CB23 /* Assets.xcassets */,
+				6E9C7B5E25DC1F7900D4CB23 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6E9C7B4725DC1F7800D4CB23 = {
 			isa = PBXGroup;
 			children = (
@@ -141,14 +194,15 @@
 		6E9C7B5225DC1F7800D4CB23 /* FireBaseChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				6E94337325DCE3A800F50F80 /* Model */,
+				6E94337525DCE3DF00F50F80 /* View */,
+				6E94337425DCE3BF00F50F80 /* Controller */,
 				6E9C7B5325DC1F7800D4CB23 /* AppDelegate.swift */,
 				6E9C7B5525DC1F7800D4CB23 /* SceneDelegate.swift */,
-				6E9C7B5725DC1F7800D4CB23 /* ViewController.swift */,
-				6E9C7B5925DC1F7800D4CB23 /* Main.storyboard */,
-				6E9C7B5C25DC1F7900D4CB23 /* Assets.xcassets */,
-				6E9C7B5E25DC1F7900D4CB23 /* LaunchScreen.storyboard */,
 				6E9C7B6125DC1F7900D4CB23 /* Info.plist */,
 				6E94336E25DCE14800F50F80 /* GoogleService-Info.plist */,
+				6E9433AD25DD0D4500F50F80 /* MessageCell.swift */,
+				6E9433AE25DD0D4500F50F80 /* MessageCell.xib */,
 			);
 			path = FireBaseChatApp;
 			sourceTree = "<group>";
@@ -279,6 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E9433B025DD0D4500F50F80 /* MessageCell.xib in Resources */,
 				6E9C7B6025DC1F7900D4CB23 /* LaunchScreen.storyboard in Resources */,
 				6E94336F25DCE14800F50F80 /* GoogleService-Info.plist in Resources */,
 				6E9C7B5D25DC1F7900D4CB23 /* Assets.xcassets in Resources */,
@@ -411,8 +466,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E9C7B5825DC1F7800D4CB23 /* ViewController.swift in Sources */,
+				6E9433AF25DD0D4500F50F80 /* MessageCell.swift in Sources */,
+				6E94339525DCE7C900F50F80 /* RegisterViewController.swift in Sources */,
+				6E9433A425DCF9C900F50F80 /* ChatViewController.swift in Sources */,
+				6E9433A925DCFE1200F50F80 /* Message.swift in Sources */,
 				6E9C7B5425DC1F7800D4CB23 /* AppDelegate.swift in Sources */,
+				6E9433B525DD584900F50F80 /* RoomViewController.swift in Sources */,
 				6E9C7B5625DC1F7800D4CB23 /* SceneDelegate.swift in Sources */,
+				6E9433BA25DD5AB300F50F80 /* RoomModel.swift in Sources */,
+				6E94339F25DCF54F00F50F80 /* TabBarController.swift in Sources */,
+				6E94339A25DCEAF000F50F80 /* SendToDBModel.swift in Sources */,
+				6E94338D25DCE64E00F50F80 /* CheckPermission.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
